@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    text-rendering: optimizeLegibility;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+   
+}
+
+header {
+    background-image: url("/recources/images/xd.jpg");
+    height: 100vh; /* vh - viev port */
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.row{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.page-one{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*przesuwa pojemnik poziomo i pionowo, pewnien trik */
+}
+
+.page-one h1{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(241, 241, 241);
+    margin: 0;
+    font-size: 280%; /* używamy % wtedy 200% większy jest rozmiar czcionki ustalony w html */
+
+}
+/*-- Przycisk -- home page*/
+.btn {
+    
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid rgb(241, 241, 241);
+    transition: background-color 1s;
+    vertical-align: middle;
+    position: relative;
+    
+}
+
+.btn-full {
+    
+    margin-top: 100px;
+    color: rgb(241, 241, 241);
+    font-weight: 0.5;
+    
+}
+
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: rgb(114, 196, 196);
+    color: rgb(241, 241, 241);  
+    
+}
+
+.fb{
+    width: 40px;
+    margin-top: 10px;
+    transition: transform .2s;
+}
+
+.fb:hover{
+    transform: scale(1.3);
+}
+
+/* Navbar */
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+
+.main-nav li{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+    
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s;
+    
+}
+
+.main-nav li a:hover{
+    border-bottom: 2px solid  rgb(114, 196, 196);
+   
+}
+
+/* Strony */
+section{
+    color: rgb(70, 70, 70);
+    
+}
+/* ------------ SKILLS --------- */
+.section-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)), url("/recources/images/xd.jpg");
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    background-size: cover;
+    color: rgb(241, 241, 241);
+    margin-top:120px;
+}
+
+.projects{
+    height:35vh;
+}
+
+
+h2{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px;  
+    font-size: 300%;   
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color:  rgb(114, 196, 196);
+    content: " ";
+    width: 50px;
+    margin: 20px auto;
+}
+
+/* -- IKONY -- */
+
+.icon-big{
+    font-size: 400%;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 40%; 
+    color: rgb(114, 196, 196);
+}
+
+
+.fa-node-js{
+    color: rgb(243, 240, 52);
+}
+
+.fa-html5{
+    color:rgb(236, 91, 47);
+}
+
+.fa-css3-alt{
+    color:rgb(27, 113, 226);
+}
+
+.icons{
+    width: 40%; /* ----- tutaj zmienić pading na inny */
+    margin-left: 20%;
+    transition: transform 0.5s;
+    
+}
+
+
+.icons:hover{
+    transform: scale(1.3);
+}
+
+
+/* ----- MY HOBIES ------ */
+.long-copy {
+
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 60px;
+}
+ 
+.box h1{
+    margin-bottom: 10px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+.box p{
+    font-size: 80%;
+    line-height: 100%;
+   
+}
+
+
+/*______________________*/
+/* ----- PROJECT ------ */
+
+
+.my-projects{
+   padding: 0;
+   height:100%;
+   margin-bottom: 300px;
+}
+
+.project-showcase{
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+    
+}
+
+
+.project-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    padding-top: 0px;
+    
+}
+
+.project-photo{
+    width: 100%;
+    margin: 0;  
+    overflow: hidden;  
+}
+
+.project-photo img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.20);
+    transition: 1s;
+}
+
+.project-photo img:hover{
+    transform: scale(1.10)
+}
+
+
+/*______________________*/
+/* ----- Info ------ */
+
+/*przycisk submit */
+.submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border-style: none;
+    margin-top: 20px;
+    background:  rgb(105, 74, 95);
+    font-family: 'Comfortaa', cursive;
+    font-size: 100%;
+    transition: 1s;
+
+}
+
+.submit:hover{
+    background: rgb(241, 241, 241);
+   
+}
+
+form{
+    color: rgb(241, 241, 241);
+    margin-top: 40px;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 60px;
+}
+
+input[type=text]{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 300px;
+    border-style: none;
+}
+
+input[type=text]:focus{
+    background-color: rgb(189, 242, 255);
+}
+
+.infor{
+   
+    background-color: rgb(30, 30, 30);
+    
+   
+}
+
+.infor h2{
+    color: rgb(241, 241, 241);
+}
+
+#pause{
+    background-color: rgb(241, 241, 241);
+}
+
+
+

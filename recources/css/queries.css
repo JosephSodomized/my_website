@@ -1,0 +1,351 @@
+/* ----- media ------- */
+
+@media only screen and (max-width:1500px){
+   
+    .btn-full {
+        margin-left: 50px;
+        margin-top: 100px;
+        color: rgb(241, 241, 241);  
+        font-weight: 0.5;
+        
+    }
+        
+
+    .page-one{
+        max-width: 1440px;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); /*przesuwa pojemnik poziomo i pionowo, pewnien trik */
+    }
+
+    .page-one h1{
+    width: 50%;
+    margin-left: 30%;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 20px;
+        margin-right: 20px;   
+    }
+    
+    .fb{
+        width: 40px;
+        margin-top: 10px;
+        transition: transform .2s;
+        margin-left: 10px;
+    }
+
+    .my-projects{
+        padding: 0;
+        height:100%;
+        margin-bottom: 300px;
+     }
+
+     /* ----- MY HOBIES ------ */
+     .box p{
+        font-size: 70%;
+        line-height: 100%;
+        padding: 20px;
+    }    
+    
+    .box h1{
+        margin-bottom: 10px;
+        font-family: 'Amatic SC', cursive;
+        padding-left: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:1023px){
+    
+     /* ----- home page ---- */
+  
+     .btn-full {
+        margin-right: 50px;
+        margin-top: 100px;
+        color: rgb(241, 241, 241);  
+        font-weight: 0.5;
+        width: 100px;;
+    }
+
+    .page-one h1{
+        margin-left: 25%;
+        font-size: 200%;
+        }
+    
+    .project-showcase li {
+        display: block;
+        float: left;
+        width: 50%;
+        padding-top: 0px;
+        
+    }
+
+    .my-projects{
+        padding: 0;
+        height:100%;
+        margin-bottom: 300px;
+     }
+   
+     /* ----- MY HOBIES ------ */
+     .box p{
+        font-size: 70%;
+        line-height: 100%;
+       padding: 20px;
+    }
+
+    .box h1{
+        margin-bottom: 10px;
+        font-family: 'Amatic SC', cursive;
+        padding-left: 20px;
+    }
+    
+    
+    .my-projects{
+        padding: 0;
+        height:100%;
+        margin-bottom: 300px;
+     }
+    
+    
+     /* ----- SKILLS -------- */
+
+     .icons{
+        width: 70%; /* ----- tutaj zmienić pading na inny */
+        margin-left: 20%;
+        transition: transform 0.5s;
+        
+    }
+}
+
+
+@media only screen and (max-width:767px){
+
+    /* ----- button home page ------ */
+    .btn {
+    
+    
+        background-color: rgb(241, 241, 241);
+        color: black;
+    }
+
+    .btn-full {
+    
+        margin-top: 100px;
+        color: black;
+       
+        
+    }
+    
+    /* ----- home page ---- */
+  
+    .page-one h1{
+        margin-left: 25%;
+        font-size: 200%;
+        }
+
+         /* ----- MY HOBIES ------ */
+         .box p{
+            font-size: 70%;
+            line-height: 100%;
+           padding: 20px;
+        }
+        .box h1{
+            margin-bottom: 10px;
+            font-family: 'Amatic SC', cursive;
+            text-align: center;
+        }
+
+  /* ----- My Projects ------ */
+
+        .project-showcase li {
+            display: block;
+            float: left;
+            width: 50%;
+            padding-top: 0px;
+            
+        }
+
+
+        .my-projects{
+            padding: 0;
+            height:100%;
+            margin-bottom: 300px;
+         }
+       
+        
+        
+        .icons{
+            width: 60%; /* ----- tutaj zmienić pading na inny */
+            transition: transform 0.5s;
+            padding-left: 10px;
+    
+        }
+
+        /* ----- send me somenthing ------ */
+        .infor h2{
+            color: rgb(241, 241, 241);
+            font-size: 200%;
+        }
+        
+        input[type=text]{
+            margin-left: auto;
+            margin-right: auto;
+            height: 30px;
+            max-width: 300px;
+            border-style: none;
+        }
+}
+
+
+
+@media only screen and (max-width: 410px) {
+ 
+    /* ----- button home page ------ */
+    .btn {
+    
+    
+        background-color: rgb(241, 241, 241);
+        color: black;
+    }
+
+    .btn-full {
+    
+        margin-top: 100px;
+        color: black;
+       
+        
+    }
+  
+    header {
+
+        height: 100vh; /* vh - viev port */
+        background-size: cover;
+   
+        background-attachment: fixed;
+    }
+
+    /* ----- home page ---- */
+
+    .page-one h1{
+        padding-left: 60px;
+        font-family: 'Amatic SC', cursive;
+        margin: 0;
+        font-size: 200%;
+        }
+
+        /* ----- MY HOBIES ------ */
+        .box p{
+            font-size: 70%;
+            line-height: 100%;
+           padding: 20px;
+        }
+
+        .box h1{
+            margin-bottom: 10px;
+            font-family: 'Amatic SC', cursive;
+            text-align: center;
+        }
+       
+        
+        /* ----- My Projects ------ */
+        .project-showcase li {
+            display: block;
+            float: left;
+            width: 50%;
+            padding-top: 0px;
+            
+        }
+
+        .project-showcase{
+            margin: 0 auto;
+            width: 100%;
+            list-style: none;
+        }
+    
+        .my-projects{
+            padding: 0;
+            height:100%;
+            margin-bottom: 300px;
+         }
+       
+        
+        /* ----- SKILLS -------- */
+
+        .icons{
+            width: 60%; /* ----- tutaj zmienić pading na inny */
+            transition: transform 0.5s;
+            padding-left: 10px;
+            margin-left: 50%;
+        }
+        
+
+        /* ----- send me somenthing ------ */
+        .infor h2{
+            color: rgb(241, 241, 241);
+            font-size: 200%;
+        }
+        
+        input[type=text]{
+            margin-left: auto;
+            margin-right: auto;
+            height: 30px;
+            max-width: 250px;
+            border-style: none;
+        }
+
+        
+}
+
+@media only screen and (max-width: 320px) {
+    .icons{
+        width: 60%; /* ----- tutaj zmienić pading na inny */
+        transition: transform 0.5s;
+        padding-left: 10px;
+        margin-left: 30%;
+    }
+    
+    .page-one h1{
+        padding-left: 45px;
+    
+        }
+
+    .page-one h1{
+    width: 50%;
+    text-align: center;
+    margin-left: 15px;
+    }
+
+    .main-nav {
+        float: right;
+        list-style: none;
+        margin-top: 10px;
+        margin-right: 20px;   
+    }
+
+    .fb{
+        width: 20px;
+        margin-top: 12px;
+        transition: transform .2s;
+        margin-left: 10px;
+    }
+
+    .btn {
+    
+    
+        background-color: rgb(241, 241, 241);
+        color: black;
+    }
+
+    .btn-full {
+    
+        margin-top: 100px;
+        color: black;
+       
+        
+    }
+}
